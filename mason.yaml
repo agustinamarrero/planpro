@@ -1,0 +1,3 @@
+bricks:
+  ui_package: ^0.4.0
+  feature_page_bloc: ^0.1.0

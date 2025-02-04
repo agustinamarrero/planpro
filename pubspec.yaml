@@ -1,0 +1,51 @@
+name: plantelpro
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  file_picker: ^5.2.5 
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4        # Opcional: Autenticación
+  cloud_firestore: ^5.5.0       # Opcional: Base de datos Firestore
+  firebase_storage: ^12.2.0     # Opcional: Almacenamiento
+  go_router: ^14.6.2
+  intl: ^0.19.0
+  mason: ^0.1.0-dev.60
+  plantelpro_ui: 
+    path: 'plantelpro_ui'
+  equatable: ^2.0.7
+
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  flutter_test:
+    sdk: flutter 
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  flavors:
+    development:
+      image_path: "assets/icons/icon.png"
+    staging:
+      image_path: "assets/icons/icon.png"
+  min_sdk_android: 21
